@@ -3,6 +3,13 @@
 # Introduction
 This tinder clone app consists the best practice of MVVM architecture.
 
+The end goal of the usage of any design, architectural patterns is usually the same -
+
+Adding a new requirement should be easy.
+Completing any new task/requirement should not break any existing features.
+It should enable individual development & deployement of features.
+Components/Modules should be testable without dependencies.
+
 # Screenshots
 
 
