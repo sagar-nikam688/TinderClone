@@ -1,0 +1,14 @@
+target 'Assignment-Tinder' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Assignment-Tinder
+  pod 'Alamofire'
+  pod 'AlamofireImage', '~> 3.5'
+
+  target 'Assignment-TinderTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

@@ -1,0 +1,6 @@
+framework module Pods_Assignment_Tinder {
+  umbrella header "Pods-Assignment-Tinder-umbrella.h"
+
+  export *
+  module * { export * }
+}

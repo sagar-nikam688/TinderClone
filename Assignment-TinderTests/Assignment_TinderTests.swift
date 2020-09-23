@@ -30,5 +30,18 @@ class Assignment_TinderTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-
+    
+    func testFetchTODOList() {
+       let exp = expectation(description:"fetching to-do list from server")
+       
+       let session: URLSession = URLSession(configuration: .default)
+       let url = URL(string: "https://randomuser.me/api/?results=50")
+       session.dataTask(with: url!) { data, response, error in
+          XCTAssertNil(error)
+          exp.fulfill()
+       }.resume()
+       waitForExpectations(timeout: 10.0) { (error) in
+          print(error?.localizedDescription ?? "error")
+       }
+    }
 }
