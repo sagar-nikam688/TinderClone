@@ -11,7 +11,7 @@ It should enable individual development & deployement of features.
 Components/Modules should be testable without dependencies.
 
 # Screenshots
-![rsz_img_1194](https://user-images.githubusercontent.com/45251228/94005131-72812780-fdbb-11ea-921d-93c8609997a6.png) ![IMG_1195](https://user-images.githubusercontent.com/45251228/94004379-3ac5b000-fdba-11ea-84c7-91758a247543.PNG)
+ ![IMG_1194](https://user-images.githubusercontent.com/45251228/94005482-fa673180-fdbb-11ea-9afb-605f72eed29e.PNG) ![IMG_1195](https://user-images.githubusercontent.com/45251228/94005466-f5a27d80-fdbb-11ea-8f62-6e8a332302d3.PNG)
 
 # Languages / Frameworks Used
 Swift 5
