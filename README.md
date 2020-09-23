@@ -15,7 +15,7 @@ Components/Modules should be testable without dependencies.
 
 # Languages / Frameworks Used
 Swift 5
-UIKit The project is built supporting iOS 13.6, you can change the deployment target to run it on previous iOS versions.
+UIKit The project is built supporting iOS 14.0, you can change the deployment target to run it on previous iOS versions.
 
 # How to run the project ?
 Download the zip file or clone the project, currently there's one master branch.
